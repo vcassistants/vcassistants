@@ -10,16 +10,45 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/bg.css">
+    <!-- <link rel="stylesheet" href="css/switch.css"> -->
 
     <title>Virtual Connect Assistants</title>
 </head>
 <body>
 
+    
+    <!-- wrapper -->
+    <!-- <div class="wrapper">
+    
+     
+        <canvas id="bg-animation"></canvas>
+    
+        <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=1.9.1'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+    
+        <script type='text/javascript' src='resources/scripts/bg-animation.js'></script>
+    
+    </div> -->
+    <!-- /wrapper -->
 
 
-   
+    <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop">
+          <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+          <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+          <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+        </div>
+      </div>
 
-
+    
+ 
+    
       
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
     <div class="container">
@@ -33,21 +62,85 @@
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 
                 </ul>
-               
         </div>
 
-        <nav>
-            <!-- Other nav items -->
-            <button id="night-mode-toggle" class="btn btn-dark">Toggle Night Mode</button>
-          </nav>
-    </div>
+        
 
-   
-     
+        <!-- <nav> -->
+            <!-- <label class="btn btn-dark" id="night-mode-toggle">
+                <input id="input" type="checkbox" checked="darkTheme" />
+                <div class="slider round">
+                  <div class="sun-moon">
+                    <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+              
+                    <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                    <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="50"></circle>
+                    </svg>
+                  </div>
+                  <div class="stars">
+                    <svg id="star-1" class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                      ></path>
+                    </svg>
+                    <svg id="star-2" class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                      ></path>
+                    </svg>
+                    <svg id="star-3" class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                      ></path>
+                    </svg>
+                    <svg id="star-4" class="star" viewBox="0 0 20 20">
+                      <path
+                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </label> -->
+           <!-- FOR TOGGLE BUTTON NIGHT MODE -->
+            <!-- <button id="night-mode-toggle" class="btn btn-dark">Toggle Night Mode</button> -->
+          <!-- </nav> -->
+    </div>    
 </nav>
 
 
-
+<!-- FOR LOAING  -->
 <div id="preloader">
     <div class="loading-wave">
         <div class="loading-wave">
@@ -55,9 +148,9 @@
         <div class="loading-bar"></div>
         <div class="loading-bar"></div>
         <div class="loading-bar"></div>
+    </div>
 </div>
 
-    </div>
 </div>
 <div id="content" style="display: none;"></div>
 
@@ -76,16 +169,11 @@
                     <div class="card">
                         <img id="photo" src="images/banner-img.png" alt="Photo 1">
                         
-                    
                 </div>
             </div>
-
-            
         </div>
     </div>
 </div>
-
-
 
 
 <div class="container-fluid gtco-features" id="about">
@@ -145,9 +233,11 @@
     <div class="card text-center"><img class="card-img-top" src="images/Professional Expertise.png" alt="">
         <div class="card-body">
             <h5>Professional Expertise <br/><br>
-            <p class="card-text">“Our team consists of skilled virtual assistants who excel in a range of tasks from administrative support 
-                to customer service. We bring professionalism, efficiency, and dedication to each project, ensuring that your 
-                business runs smoothly.” </p>
+            <p class="card-text">
+                “Our team consists of skilled virtual assistants who excel in a range of tasks from 
+                administrative support to customer service. We bring professionalism, efficiency, and 
+                dedication to each project, ensuring that your business runs smoothly.” 
+            </p>
         </div>
     </div>
     </div>
@@ -155,8 +245,11 @@
     <div class="card"><img class="card-img-top" src="images/Cost-Effective Solutions.png" alt="">
         <div class="card-body">
             <h5>Cost-Effective Solutions<br/><br>
-            <p class="card-text">“With Virtual Connect Assistants, you gain high-quality support without the overhead of traditional employment. 
-                We offer flexible plans designed to fit your unique needs and budget, helping you maximize resources and save on operational costs.” </p>
+            <p class="card-text">
+                “With Virtual Connect Assistants, you gain high-quality support without the overhead 
+                of traditional employment. We offer flexible plans designed to fit your unique needs 
+                and budget, helping you maximize resources and save on operational costs.” 
+            </p>
         </div>
     </div>
     </div>
@@ -164,8 +257,10 @@
     <div class="card"><img class="card-img-top" src="images/Reliable and Secure.png" alt="">
         <div class="card-body">
             <h5>Reliable and Secure<br/><br>
-               <p class="card-text">“We prioritize confidentiality, integrity, and data security, giving you peace of mind that your sensitive 
-                information and business processes are in safe hands.” </p>
+               <p class="card-text">
+                “We prioritize confidentiality, integrity, and data security, giving you peace of mind 
+                that your sensitive information and business processes are in safe hands.” 
+            </p>
         </div>
     </div>
     </div>
@@ -173,8 +268,11 @@
     <div class="card"><img class="card-img-top" src="images/Customized Support.png" alt="">
         <div class="card-body">
             <h5>Customized Support<br/><br>
-            <p class="card-text">“Our services are tailored to match your specific requirements, allowing us to adapt to the evolving needs of your business. 
-                Whether you need consistent daily support or occasional assistance, we are here to provide the right level of help.” </p>
+            <p class="card-text">
+                “Our services are tailored to match your specific requirements, allowing us to adapt to 
+                the evolving needs of your business. Whether you need consistent daily support or occasional 
+                assistance, we are here to provide the right level of help.” 
+            </p>
         </div>
     </div>
     </div>
@@ -183,8 +281,11 @@
     <div class="card"><img class="card-img-top" src="images/Time-Saving Convenience.png" alt="">
         <div class="card-body">
             <h5>Time-Saving Convenience<br/><br>
-            <p class="card-text">“We handle the behind-the-scenes work, so you can focus on growing your business and achieving your goals. 
-                With our support, you gain back valuable time to focus on strategy, growth, and client engagement.” </p>
+            <p class="card-text">
+                “We handle the behind-the-scenes work, so you can focus on growing your business and achieving
+                 your goals. With our support, you gain back valuable time to focus on strategy, growth, and 
+                 client engagement.” 
+                </p>
         </div>
     </div>
     </div>
@@ -205,7 +306,8 @@
                         <p></p>
                     </div>
                     <div class="backSide">
-                        <p>Grow your business with targeted lead generation services. We identify and qualify potential customers, delivering high-quality leads tailored to your goals.</p>
+                        <p>Efficiently manage your schedule with our professional appointment-setting service. We handle outreach, scheduling, and confirmations to ensure your calendar is 
+                            optimized and meetings are seamlessly coordinated. Save time and focus on what matters while we manage your appointments with precision and professionalism.</p>
                     </div>
                 </div>
             </div>
@@ -244,9 +346,10 @@
                         <p></p>
                     </div>
                     <div class="backSide">
-                            <p class="card-text">Streamline your operations with the support of a dedicated executive assistant. 
-                                From managing emails and scheduling meetings to organizing tasks and preparing reports, we provide comprehensive 
-                                administrative support to help you stay organized and focused on leadership priorities.</p>
+                            <p class="card-text">
+                                Streamline your operations with the support of a dedicated executive assistant. 
+                                From managing emails and scheduling meetings to organizing tasks and preparing reports, 
+                                we provide comprehensive administrative support to help you stay organized and focused on leadership priorities.</p>
                     </div>
                 </div>
             </div>
@@ -341,12 +444,42 @@
 </div>
 
 
+<!-- <div class="container">
+    <div class="row footer">
+      <div class="col">
+        <a href="https://www.instagram.com/victorvergara.co/" target="_blank">
+          <img src="https://victorvergara.co/logo.svg" alt="Victor Vergara Logo">
+        </a>
+      </div>
+    </div>
+  </div> -->
+
+
+<!-- FOR BACKGROUND -->
+
+<!-- <div class="ripple-background">
+    <div class="circle xxlarge shade1"></div>
+    <div class="circle xlarge shade2"></div>
+    <div class="circle large shade3"></div>
+    <div class="circle medium shade4"></div>
+    <div class="circle small shade5"></div>
+  </div>
+
+  <div class="ripple-background2">
+    <div class="circle2 xxlarge2 shade1"></div>
+    <div class="circle2 xlarge2 shade2"></div>
+    <div class="circle2 large2 shade3"></div>
+    <div class="circle2 medium2 shade4"></div>
+    <div class="circle2 small2 shade5"></div>
+  </div> -->
+
 <!-- Scripts -->
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="owl-carousel/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/bg.js"></script>
 <script src="js/animation.js"></script>
 </body>
 </html>
