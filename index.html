@@ -1,485 +1,501 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Fonts and CSS -->
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/card.css">
-    <link rel="stylesheet" href="css/bg.css">
-    <!-- <link rel="stylesheet" href="css/switch.css"> -->
+        <!-- Fonts and CSS -->
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/card.css">
+        <link rel="stylesheet" href="css/bg.css">
+        <!-- <link rel="stylesheet" href="css/switch.css"> -->
 
-    <title>Virtual Connect Assistants</title>
-</head>
-<body>
-
-    
-    <!-- wrapper -->
-    <!-- <div class="wrapper">
-    
-     
-        <canvas id="bg-animation"></canvas>
-    
-        <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=1.9.1'></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
-    
-        <script type='text/javascript' src='resources/scripts/bg-animation.js'></script>
-    
-    </div> -->
-    <!-- /wrapper -->
-
-
-    <div class="waveWrapper waveAnimation">
-        <div class="waveWrapperInner bgTop">
-          <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
-        </div>
-        <div class="waveWrapperInner bgMiddle">
-          <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
-        </div>
-        <div class="waveWrapperInner bgBottom">
-          <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
-        </div>
-      </div>
-
-    
- 
-    
-      
-<nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
-    <div class="container">
-        <a class="logo" href="#"><img src="images/VCA.png" ></a>
-        <div id="my-nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#wwcu">Why We Choose Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-
-                </ul>
-        </div>
+        <title>Virtual Connect Assistants</title>
+    </head>
+    <body>
 
         
+        <!-- wrapper -->
+        <!-- <div class="wrapper">
+        
+        
+            <canvas id="bg-animation"></canvas>
+        
+            <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?ver=1.9.1'></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+        
+            <script type='text/javascript' src='resources/scripts/bg-animation.js'></script>
+        
+        </div> -->
+        <!-- /wrapper -->
 
-        <!-- <nav> -->
-            <!-- <label class="btn btn-dark" id="night-mode-toggle">
-                <input id="input" type="checkbox" checked="darkTheme" />
-                <div class="slider round">
-                  <div class="sun-moon">
-                    <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-              
-                    <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                    <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100">
-                      <circle cx="50" cy="50" r="50"></circle>
-                    </svg>
-                  </div>
-                  <div class="stars">
-                    <svg id="star-1" class="star" viewBox="0 0 20 20">
-                      <path
-                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
-                      ></path>
-                    </svg>
-                    <svg id="star-2" class="star" viewBox="0 0 20 20">
-                      <path
-                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
-                      ></path>
-                    </svg>
-                    <svg id="star-3" class="star" viewBox="0 0 20 20">
-                      <path
-                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
-                      ></path>
-                    </svg>
-                    <svg id="star-4" class="star" viewBox="0 0 20 20">
-                      <path
-                        d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
-                      ></path>
-                    </svg>
-                  </div>
+
+            <div class="waveWrapper waveAnimation">
+                <div class="waveWrapperInner bgTop">
+                <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
                 </div>
-              </label> -->
-           <!-- FOR TOGGLE BUTTON NIGHT MODE -->
-            <!-- <button id="night-mode-toggle" class="btn btn-dark">Toggle Night Mode</button> -->
-          <!-- </nav> -->
-    </div>    
-</nav>
-
-
-<!-- FOR LOAING  -->
-<div id="preloader">
-    <div class="loading-wave">
-        <div class="loading-wave">
-        <div class="loading-bar"></div>
-        <div class="loading-bar"></div>
-        <div class="loading-bar"></div>
-        <div class="loading-bar"></div>
-    </div>
-</div>
-
-</div>
-<div id="content" style="display: none;"></div>
-
-
-
-<div class="container-fluid gtco-banner-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h1><span style="font-weight: bold;">Virtual Connect</span> Assistants</h1>
-            </div>
-            <div class="col-md-6">
-                <!-- <div class="card">
-                    <img class="card-img-top img-fluid" src="images/banner-img.png" alt="">
-                </div> -->
-                    <div class="card">
-                        <img id="photo" src="images/banner-img.png" alt="Photo 1">
-                        
+                <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+                </div>
+                <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
 
-
-<div class="container-fluid gtco-features" id="about">
-    <hr class="new5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Empowering Your Business, Virtually</h2>
-                <p>At Virtual Connect Assistants, we provide businesses with reliable, professional, and cost-effective virtual support. We specialize in helping you save time and resources by handling everything from scheduling and customer service to data entry and administrative tasks.</p>
-            </div>
-            <div class="col-lg-8">
-                <svg id="bg-services" width="100%" viewBox="0 0 1000 800">
-                    <defs>
-                        <linearGradient id="PSgrad_02" x1="64.279%" x2="0%" y1="76.604%" y2="0%">
-                            <stop offset="0%" stop-color="rgb(1,230,248)" stop-opacity="1"/>
-                            <stop offset="100%" stop-color="rgb(29,62,222)" stop-opacity="1"/>
-                        </linearGradient>
-                    </defs>
-                    <path fill-rule="evenodd" opacity="0.102" fill="url(#PSgrad_02)" d="M801.878,3.146 L116.381,128.537 C26.052,145.060 -21.235,229.535 9.856,312.073 L159.806,710.157 C184.515,775.753 264.901,810.334 338.020,792.380 L907.021,652.668 C972.912,636.489 1019.383,573.766 1011.301,510.470 L962.013,124.412 C951.950,45.594 881.254,-11.373 801.878,3.146 Z"/>
-                </svg>
-                <div class="row">
-                    <div class="col">
-                        <div class="card text-center">
-                            <div class="oval"><img class="card-img-top" src="images/Mission.gif" alt=""></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Our Mission</h3>
-                                <p class="card-text">To deliver exceptional virtual assistance that enhances productivity, strengthens client relationships, and empowers business growth.</p>
-                            </div>
-                        </div>
-                        <div class="card text-center">
-                            <div class=""><img class="card-img-top" src="images/Vision.gif" alt=""></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Our Vision</h3>
-                                <p class="card-text">To be a trusted partner for businesses worldwide, offering high-quality virtual support that ensures success and peace of mind for our clients.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="container-fluid gtco-testimonials" id="wwcu">
-    <hr class="new5">
-    <div class="container">
-    <h2> Why Choose Us?</h2>
-    <div class="owl-carousel owl-carousel1 owl-theme">
-    <div>
-    <div class="card text-center"><img class="card-img-top" src="images/Professional Expertise.png" alt="">
-        <div class="card-body">
-            <h5>Professional Expertise <br/><br>
-            <p class="card-text">
-                “Our team consists of skilled virtual assistants who excel in a range of tasks from 
-                administrative support to customer service. We bring professionalism, efficiency, and 
-                dedication to each project, ensuring that your business runs smoothly.” 
-            </p>
-        </div>
-    </div>
-    </div>
-    <div>
-    <div class="card"><img class="card-img-top" src="images/Cost-Effective Solutions.png" alt="">
-        <div class="card-body">
-            <h5>Cost-Effective Solutions<br/><br>
-            <p class="card-text">
-                “With Virtual Connect Assistants, you gain high-quality support without the overhead 
-                of traditional employment. We offer flexible plans designed to fit your unique needs 
-                and budget, helping you maximize resources and save on operational costs.” 
-            </p>
-        </div>
-    </div>
-    </div>
-    <div>
-    <div class="card"><img class="card-img-top" src="images/Reliable and Secure.png" alt="">
-        <div class="card-body">
-            <h5>Reliable and Secure<br/><br>
-               <p class="card-text">
-                “We prioritize confidentiality, integrity, and data security, giving you peace of mind 
-                that your sensitive information and business processes are in safe hands.” 
-            </p>
-        </div>
-    </div>
-    </div>
-    <div>
-    <div class="card"><img class="card-img-top" src="images/Customized Support.png" alt="">
-        <div class="card-body">
-            <h5>Customized Support<br/><br>
-            <p class="card-text">
-                “Our services are tailored to match your specific requirements, allowing us to adapt to 
-                the evolving needs of your business. Whether you need consistent daily support or occasional 
-                assistance, we are here to provide the right level of help.” 
-            </p>
-        </div>
-    </div>
-    </div>
+        
     
-    <div>
-    <div class="card"><img class="card-img-top" src="images/Time-Saving Convenience.png" alt="">
-        <div class="card-body">
-            <h5>Time-Saving Convenience<br/><br>
-            <p class="card-text">
-                “We handle the behind-the-scenes work, so you can focus on growing your business and achieving
-                 your goals. With our support, you gain back valuable time to focus on strategy, growth, and 
-                 client engagement.” 
-                </p>
+        
+                
+            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent" id="gtco-main-nav">
+                <div class="container">
+                    <a class="logo" href="#"><img src="images/VCA.png" ></a>
+                    <div id="my-nav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#wwcu">Why We Choose Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                            </ul>
+                    </div>
+
+                    
+
+                    
+
+                    <!-- <nav> -->
+                        <!-- <label class="btn btn-dark" id="night-mode-toggle">
+                            <input id="input" type="checkbox" checked="darkTheme" />
+                            <div class="slider round">
+                            <div class="sun-moon">
+                                <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                        
+                                <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                                <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="50"></circle>
+                                </svg>
+                            </div>
+                            <div class="stars">
+                                <svg id="star-1" class="star" viewBox="0 0 20 20">
+                                <path
+                                    d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                                ></path>
+                                </svg>
+                                <svg id="star-2" class="star" viewBox="0 0 20 20">
+                                <path
+                                    d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                                ></path>
+                                </svg>
+                                <svg id="star-3" class="star" viewBox="0 0 20 20">
+                                <path
+                                    d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                                ></path>
+                                </svg>
+                                <svg id="star-4" class="star" viewBox="0 0 20 20">
+                                <path
+                                    d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                                ></path>
+                                </svg>
+                            </div>
+                            </div>
+                        </label> -->
+                    <!-- FOR TOGGLE BUTTON NIGHT MODE -->
+                        <!-- <button id="night-mode-toggle" class="btn btn-dark">Toggle Night Mode</button> -->
+                    <!-- </nav> -->
+                </div>    
+            </nav>
+
+
+            <!-- FOR LOAING  -->
+            <div id="preloader">
+                <div class="loading-wave">
+                    <div class="loading-wave">
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                    <div class="loading-bar"></div>
+                </div>
+            </div>
+
+            </div>
+            <div id="content" style="display: none;"></div>
+
+
+
+            <div class="container-fluid gtco-banner-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1><span style="font-weight: bold;">Virtual Connect</span> Assistants</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- <div class="card">
+                                <img class="card-img-top img-fluid" src="images/banner-img.png" alt="">
+                            </div> -->
+                                <div class="card">
+                                    <img id="photo" src="images/banner-img.png" alt="Photo 1">
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+
+            <div class="container-fluid gtco-features" id="about">
+                <hr class="new5">
+                <div id="particles-js"></div>
+                <div class="container">
+                    
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h2>Empowering Your Business, Virtually</h2>
+                            <p>At Virtual Connect Assistants, we provide businesses with reliable, professional, and cost-effective virtual support. We specialize in helping you save time and resources by handling everything from scheduling and customer service to data entry and administrative tasks.</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <svg id="bg-services" width="100%" viewBox="0 0 1000 800">
+                                <defs>
+                                    <linearGradient id="PSgrad_02" x1="64.279%" x2="0%" y1="76.604%" y2="0%">
+                                        <stop offset="0%" stop-color="rgb(1,230,248)" stop-opacity="1"/>
+                                        <stop offset="100%" stop-color="rgb(29,62,222)" stop-opacity="1"/>
+                                    </linearGradient>
+                                </defs>
+                                <path fill-rule="evenodd" opacity="0.102" fill="url(#PSgrad_02)" d="M801.878,3.146 L116.381,128.537 C26.052,145.060 -21.235,229.535 9.856,312.073 L159.806,710.157 C184.515,775.753 264.901,810.334 338.020,792.380 L907.021,652.668 C972.912,636.489 1019.383,573.766 1011.301,510.470 L962.013,124.412 C951.950,45.594 881.254,-11.373 801.878,3.146 Z"/>
+                            </svg>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <div class="oval"><img class="card-img-top" src="images/Mission.gif" alt=""></div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Our Mission</h3>
+                                            <p class="card-text">To deliver exceptional virtual assistance that enhances productivity, strengthens client relationships, and empowers business growth.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card text-center">
+                                        <div class=""><img class="card-img-top" src="images/Vision.gif" alt=""></div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Our Vision</h3>
+                                            <p class="card-text">To be a trusted partner for businesses worldwide, offering high-quality virtual support that ensures success and peace of mind for our clients.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         
+       
+
+
+            <div class="container-fluid gtco-testimonials" id="wwcu">
+                <hr class="new5">
+                <div class="container">
+                <h2> Why Choose Us?</h2>
+                <div class="owl-carousel owl-carousel1 owl-theme">
+                <div>
+                <div class="card text-center"><img class="card-img-top" src="images/Professional Expertise.png" alt="">
+                    <div class="card-body">
+                        <h5>Professional Expertise <br/><br>
+                        <p class="card-text">
+                            “Our team consists of skilled virtual assistants who excel in a range of tasks from 
+                            administrative support to customer service. We bring professionalism, efficiency, and 
+                            dedication to each project, ensuring that your business runs smoothly.” 
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div>
+                <div class="card"><img class="card-img-top" src="images/Cost-Effective Solutions.png" alt="">
+                    <div class="card-body">
+                        <h5>Cost-Effective Solutions<br/><br>
+                        <p class="card-text">
+                            “With Virtual Connect Assistants, you gain high-quality support without the overhead 
+                            of traditional employment. We offer flexible plans designed to fit your unique needs 
+                            and budget, helping you maximize resources and save on operational costs.” 
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div>
+                <div class="card"><img class="card-img-top" src="images/Reliable and Secure.png" alt="">
+                    <div class="card-body">
+                        <h5>Reliable and Secure<br/><br>
+                        <p class="card-text">
+                            “We prioritize confidentiality, integrity, and data security, giving you peace of mind 
+                            that your sensitive information and business processes are in safe hands.” 
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <div>
+                <div class="card"><img class="card-img-top" src="images/Customized Support.png" alt="">
+                    <div class="card-body">
+                        <h5>Customized Support<br/><br>
+                        <p class="card-text">
+                            “Our services are tailored to match your specific requirements, allowing us to adapt to 
+                            the evolving needs of your business. Whether you need consistent daily support or occasional 
+                            assistance, we are here to provide the right level of help.” 
+                        </p>
+                    </div>
+                </div>
+                </div>
+                
+                <div>
+                <div class="card"><img class="card-img-top" src="images/Time-Saving Convenience.png" alt="">
+                    <div class="card-body">
+                        <h5>Time-Saving Convenience<br/><br>
+                        <p class="card-text">
+                            “We handle the behind-the-scenes work, so you can focus on growing your business and achieving
+                            your goals. With our support, you gain back valuable time to focus on strategy, growth, and 
+                            client engagement.” 
+                            </p>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            <hr class="new5">
+    <div class="container-fluid gtco-news" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="owl-carousel owl-carousel2 owl-theme">
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Appointment Setter.png" alt="">
+                            <p class="title">Appointment Setter</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                            <p>Efficiently manage your schedule with our professional appointment-setting service. We handle outreach, scheduling, and confirmations to ensure your calendar is 
+                                optimized and meetings are seamlessly coordinated. Save time and focus on what matters while we manage your appointments with precision and professionalism.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Lead Generation.png" alt="">
+                            <p class="title">Lead Generation</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                            <p>Grow your business with targeted lead generation services. We identify and qualify potential customers, delivering high-quality leads tailored to your goals.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Social Media Management.png" alt="">
+                            <p class="title">Social Media Management</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                                <p class="card-text">Elevate your online presence with expert social media management. From content creation to audience engagement, we take care of your brand’s social platforms.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Executive Assistant.png" alt="">
+                            <p class="title">Executive Assistant</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                                <p class="card-text">
+                                    Streamline your operations with the support of a dedicated executive assistant. 
+                                    From managing emails and scheduling meetings to organizing tasks and preparing reports, 
+                                    we provide comprehensive administrative support to help you stay organized and focused on leadership priorities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Sales Admin.png" alt="">
+                            <p class="title">Sales Admin</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                                <p class="card-text">Boost your sales team’s efficiency with our professional sales administration services. 
+                                    We handle data entry, CRM updates, report generation, and order processing, ensuring your sales operations run smoothly. 
+                                    Our support lets your sales team focus on closing deals while we manage the behind-the-scenes tasks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Scheduler.png" alt="">
+                            <p class="title">Scheduler</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                                <p class="card-text">Simplify your time management with our reliable scheduling services. Whether it’s coordinating meetings,
+                                    managing team calendars, or organizing appointments, we ensure your schedule is well-organized and conflict-free. Let us handle 
+                                    the logistics while you concentrate on your priorities.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Customer Service Representative.png" alt="">
+                            <p class="title">Customer Service Representative</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                                <p class="card-text">Deliver exceptional customer experiences with our dedicated customer service representatives. 
+                                    From handling inquiries and resolving issues to providing product information and support, we ensure every interaction 
+                                    leaves your customers satisfied and loyal to your brand.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard">
+    
+                    <div class="innerCard" >
+                        <div class="frontSide"><img class="card-img-top" src="images/Patient Communication and Accounting.png" alt="">
+                            <p class="title">Patient Communication and Accounting</p>
+                            <p></p>
+                        </div>
+                        <div class="backSide">
+                                <p class="card-text">Ensure seamless patient interactions with our comprehensive communication and accounting services. 
+                                    We manage appointment reminders, billing inquiries, and payment processing while maintaining a professional and compassionate approach. 
+                                    Enhance patient satisfaction and streamline your practice's financial operations with our expert support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <hr class="new5">
+    <footer class="container-fluid" id="contact">
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Contact Us</h4>
+                    <ul class="nav follow-us-nav">
+                        <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="mailto:info.vcassistants.com"><i class="fa fa-envelope"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="nav flex-column services-nav">
+                        <li class="company">Virtual Connect Assistants</li>
+                        <li class="nav-item">Contact Number: </li>
+                        <li class="nav-item" href="mailto:info.vcassistants.com">Email: info.vcassistants.com</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </footer>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-<hr class="new5">
-<div class="container-fluid gtco-news" id="services">
-    <div class="container">
-        <h2>Our Services</h2>
-        <div class="owl-carousel owl-carousel2 owl-theme">
 
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Appointment Setter.png" alt="">
-                        <p class="title">Appointment Setter</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                        <p>Efficiently manage your schedule with our professional appointment-setting service. We handle outreach, scheduling, and confirmations to ensure your calendar is 
-                            optimized and meetings are seamlessly coordinated. Save time and focus on what matters while we manage your appointments with precision and professionalism.</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Lead Generation.png" alt="">
-                        <p class="title">Lead Generation</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                        <p>Grow your business with targeted lead generation services. We identify and qualify potential customers, delivering high-quality leads tailored to your goals.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Social Media Management.png" alt="">
-                        <p class="title">Social Media Management</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                            <p class="card-text">Elevate your online presence with expert social media management. From content creation to audience engagement, we take care of your brand’s social platforms.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Executive Assistant.png" alt="">
-                        <p class="title">Executive Assistant</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                            <p class="card-text">
-                                Streamline your operations with the support of a dedicated executive assistant. 
-                                From managing emails and scheduling meetings to organizing tasks and preparing reports, 
-                                we provide comprehensive administrative support to help you stay organized and focused on leadership priorities.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Sales Admin.png" alt="">
-                        <p class="title">Sales Admin</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                            <p class="card-text">Boost your sales team’s efficiency with our professional sales administration services. 
-                                We handle data entry, CRM updates, report generation, and order processing, ensuring your sales operations run smoothly. 
-                                Our support lets your sales team focus on closing deals while we manage the behind-the-scenes tasks.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Scheduler.png" alt="">
-                        <p class="title">Scheduler</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                            <p class="card-text">Simplify your time management with our reliable scheduling services. Whether it’s coordinating meetings,
-                                managing team calendars, or organizing appointments, we ensure your schedule is well-organized and conflict-free. Let us handle 
-                                the logistics while you concentrate on your priorities.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Customer Service Representative.png" alt="">
-                        <p class="title">Customer Service Representative</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                            <p class="card-text">Deliver exceptional customer experiences with our dedicated customer service representatives. 
-                                From handling inquiries and resolving issues to providing product information and support, we ensure every interaction 
-                                leaves your customers satisfied and loyal to your brand.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="myCard">
-   
-                <div class="innerCard" >
-                    <div class="frontSide"><img class="card-img-top" src="images/Patient Communication and Accounting.png" alt="">
-                        <p class="title">Patient Communication and Accounting</p>
-                        <p></p>
-                    </div>
-                    <div class="backSide">
-                            <p class="card-text">Ensure seamless patient interactions with our comprehensive communication and accounting services. 
-                                We manage appointment reminders, billing inquiries, and payment processing while maintaining a professional and compassionate approach. 
-                                Enhance patient satisfaction and streamline your practice's financial operations with our expert support.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- <div class="container">
+        <div class="row footer">
+        <div class="col">
+            <a href="https://www.instagram.com/victorvergara.co/" target="_blank">
+            <img src="https://victorvergara.co/logo.svg" alt="Victor Vergara Logo">
+            </a>
         </div>
-     <hr class="new5">
-
-
-
-<footer class="container-fluid" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <h4>Contact Us</h4>
-                <ul class="nav follow-us-nav">
-                    <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook-square"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter-square"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="mailto:info.vcassistants.com"><i class="fa fa-envelope"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram-square"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-lg-6">
-                <ul class="nav flex-column services-nav">
-                    <li class="company">Virtual Connect Assistants</li>
-                    <li class="nav-item">Contact Number: </li>
-                    <li class="nav-item" href="mailto:info.vcassistants.com">Email: info.vcassistants.com</a></li>
-                </ul>
-            </div>
         </div>
+    </div> -->
+
+
+    <!-- FOR BACKGROUND -->
+
+    <!-- <div class="ripple-background">
+        <div class="circle xxlarge shade1"></div>
+        <div class="circle xlarge shade2"></div>
+        <div class="circle large shade3"></div>
+        <div class="circle medium shade4"></div>
+        <div class="circle small shade5"></div>
     </div>
-</footer>
-</div>
 
+    <div class="ripple-background2">
+        <div class="circle2 xxlarge2 shade1"></div>
+        <div class="circle2 xlarge2 shade2"></div>
+        <div class="circle2 large2 shade3"></div>
+        <div class="circle2 medium2 shade4"></div>
+        <div class="circle2 small2 shade5"></div>
+    </div> -->
 
-<!-- <div class="container">
-    <div class="row footer">
-      <div class="col">
-        <a href="https://www.instagram.com/victorvergara.co/" target="_blank">
-          <img src="https://victorvergara.co/logo.svg" alt="Victor Vergara Logo">
-        </a>
-      </div>
-    </div>
-  </div> -->
-
-
-<!-- FOR BACKGROUND -->
-
-<!-- <div class="ripple-background">
-    <div class="circle xxlarge shade1"></div>
-    <div class="circle xlarge shade2"></div>
-    <div class="circle large shade3"></div>
-    <div class="circle medium shade4"></div>
-    <div class="circle small shade5"></div>
-  </div>
-
-  <div class="ripple-background2">
-    <div class="circle2 xxlarge2 shade1"></div>
-    <div class="circle2 xlarge2 shade2"></div>
-    <div class="circle2 large2 shade3"></div>
-    <div class="circle2 medium2 shade4"></div>
-    <div class="circle2 small2 shade5"></div>
-  </div> -->
-
-<!-- Scripts -->
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="owl-carousel/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/bg.js"></script>
-<script src="js/animation.js"></script>
-</body>
-</html>
+    <!-- Scripts -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/animation.js"></script>
+    </body>
+    </html>

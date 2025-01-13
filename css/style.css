@@ -167,7 +167,7 @@ a.logo img {
   height: auto; /* Maintain aspect ratio */
 }
 
-#gtco-main-nav .navbar-brand {
+/* #gtco-main-nav .navbar-brand {
   font-weight: bold;
   font-size: 36px;
   font-family: "Montserrat"; font-weight: normal;
@@ -182,7 +182,7 @@ a.logo img {
   -webkit-text-fill-color: transparent;
   -ms-text-fill-color: transparent;
   -o-text-fill-color: transparent;
-}
+} */
 #gtco-main-nav .bar1, #gtco-main-nav .bar2, #gtco-main-nav .bar3 {
   width: 25px;
   height: 2px;
@@ -210,15 +210,15 @@ a.logo img {
   padding: 5px 15px !important;
   text-transform: uppercase;
 }
-#gtco-main-nav form a {
+/* #gtco-main-nav form a {
   font-family: "Montserrat"; font-weight: normal;
   font-size: 18px;
   color: #333;
   padding: 5px 25px;
   border-radius: 20px;
   border-width: 2px;
-}
-#gtco-main-nav form a.btn-info {
+} */
+/* #gtco-main-nav form a.btn-info {
   background: #2C7ACF;
   border-color: #2C7ACF;
 }
@@ -231,7 +231,7 @@ a.logo img {
     border-color: #2C7ACF;
     color: #2C7ACF;
   }
-}
+} */
 /* #gtco-main-nav::after {
   position: absolute;
   content: "";
@@ -311,7 +311,7 @@ a.logo img {
   }
 }
 
-.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
+/* .gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
   background-image: -moz-linear-gradient(0deg, #2C7ACF 0%, #17A2B8 100%);
   background-image: -webkit-linear-gradient(0deg, #2C7ACF 0%, #17A2B8 100%);
   background-image: -ms-linear-gradient(0deg, #2C7ACF 0%, #17A2B8 100%);
@@ -324,9 +324,9 @@ a.logo img {
   text-transform: uppercase;
   padding-right: 5px;
   text-decoration: none !important;
-}
+} */
 .gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa {
-  background: #E5E5E5;
+
   border-radius: 50%;
   height: 32px;
   width: 32px;
@@ -388,9 +388,10 @@ a.logo img {
 }
 
 hr.new5 {
-  background: linear-gradient(to right, #2C7ACF, #17A2B8, #17A2B8, #2C7ACF);
+  background: linear-gradient(to right, #2C7ACF, #17A2B8,#2C7ACF, #17A2B8);
   height: 30px;
   position: static;
+  width: auto;
 }
 
 @media (max-width: 1400px) {
@@ -468,6 +469,9 @@ hr.new5 {
 .gtco-features .col-lg-4 p {
   max-width: 320px;
   margin-bottom: 30px;
+  text-align: justify;
+  hyphenate-character: auto;
+  hyphens: auto;
 }
 .gtco-features .col-lg-8 {
   padding: 10px 100px;
@@ -493,14 +497,14 @@ hr.new5 {
 }
 .gtco-features .col-lg-8 .card {
   background: #fff;
-  margin: 30px 5px;
+  margin: 20px 5px;
   padding: 20px 10px;
   border-radius: 20px;
   box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.08);
 }
 .gtco-features .col-lg-8 .card .oval {
-  background: linear-gradient(to right, #f1f6fd, #f0fbfe);
-  padding: 10px;
+  /* background: linear-gradient(to right, #f1f6fd, #f0fbfe); */
+  padding: 5px;
   width: 150px;
   border-radius: 50%;
   margin: auto;
@@ -519,6 +523,8 @@ hr.new5 {
 }
 .gtco-features .col-lg-8 .card p {
   font-size: 16px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .gtco-numbers-block {

@@ -14,7 +14,7 @@
 
 .waveWrapper {
   position: absolute;
-  top: 100px;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -46,7 +46,7 @@
 }
 
 .wave {
-  position: absolute;
+  position: static;
   left: 0;
   width: 200%;
   height: 100%;
@@ -86,4 +86,16 @@
   height: auto;
   margin: 20px auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
